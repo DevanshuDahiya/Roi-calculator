@@ -1,0 +1,214 @@
+body{
+    font-family: 'Poppins';
+    background-color: #eee;
+}
+span{
+    color:#9E9696;
+    font-size: 14px;
+}
+.section{
+    margin-top:70px;
+    margin-bottom: 70px;
+}
+.themeButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    padding: 10px 25px;
+    /* margin: 30px 0px; */
+    cursor: pointer;
+    border: 1.5px solid #000;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+}
+.themeButton:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color:#000;
+    border: 1.5px solid #000;
+    /* box-shadow: 0px 2px 8px #ccc; */
+}
+.altButton{
+    background-color: #8C2814;
+    border: 1.5px solid #8C2814;
+}
+.altButton:hover{
+    color:#8C2814;
+    border: 1.5px solid #8C2814;
+}
+.secondaryBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 25px;
+    /* margin: 30px 0px; */
+    text-decoration: none;
+    cursor: pointer;
+    border: 1.5px solid #000;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+}
+.secondaryBtn:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color:#fff;
+    border: 1.5px solid #000;
+    /* box-shadow: 0px 2px 8px #ccc; */
+}
+
+.calcCard{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 25px 20px;
+    border:1px solid #ccc
+}
+.inputRect{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height:50px;
+    padding: 0px 10px;
+    margin: 10px 0px;
+    background-color: #F9FAFB;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+}
+.balTiles{
+    background-color: #FFF9AA;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+    padding: 9px 23px;
+    font-size: 12px;
+    color:#000;
+    font-weight: 600;
+    margin:3px;
+}
+
+.timeTiles{
+    background-color: #FCEB74;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 30px;
+    padding: 9px 23px;
+    font-size: 12px;
+    color:#000;
+    font-weight: 600;
+    margin:3px;
+    border: 1px solid #FED700;
+}
+.inputWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height:50px;
+    padding: 0px 10px;
+    margin: 10px 0px;
+    background-color: #F9FAFB;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+}
+.inputWrapper > input{
+    width:95%;
+    height:100%;
+    background-color: #F9FAFB;
+    text-align: end;
+    border:none;
+    font-weight: 700;
+    font-size: 20px ;
+    outline: none;
+}
+.inputWrapper > input:focus{
+    border: none
+}
+
+
+
+.darkLink{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color:#000;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 10px;
+}
+.darkLink:hover{
+    color:#9E9696;
+}
+.grayLink{
+    font-weight: 400;
+    color: #9E9696;
+}
+
+.spaceBtwRes{
+    justify-content: space-between;
+}
+
+.form-switch .form-check-input {
+    background-color: #F8C400;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgb(255,255,255)'/></svg>");
+    /* height: 24px;
+    width: 48px; */
+}
+.form-switch .switchHeight{
+    height: 24px;
+    width: 48px;
+    background-color: #EAEAEA;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(0,0,0,0.25)'/></svg>");
+}
+.form-switch .form-check-input:focus {
+    border-color: rgba(0, 0, 0, 0.25);
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgb(255,255,255)'/></svg>");
+}
+.form-switch .switchHeight:focus{
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(0,0,0,0.25)'/></svg>");
+}
+.form-switch .form-check-input:checked {
+    background-color: #F8C400;
+    border-color: #F8C400;
+    border: none;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(255,255,255,1.0)'/></svg>");
+}
+
+
+
+/* ********************************************small screen css ********************************************************* */
+
+@media (max-width: 500px){
+    .calcCard{
+        width: 100%!important;
+    }
+    .spaceBtwRes{
+        justify-content: flex-start;
+    }
+}
